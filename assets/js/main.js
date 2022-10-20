@@ -52,12 +52,13 @@ const containerEl = document.querySelector('.my_container');
 for (let i = 0; i < team.length; i++) {
 
     const boxMarkup =  `<div class="box box_${i + 1}"></div>`;
-    const memberNameMarkup = `<p>${team[i].name}</p>`;
-    const memberRoleMarkup = `<p>${team[i].role}</p>`;
+    const memberNameMarkup = `<p class="name">${team[i].name}</p>`;
+    const memberRoleMarkup = `<p class="role">${team[i].role}</p>`;
+    const memberImgMarkup = `<img src="./assets/img/${team[i].image}">`;
     
     containerEl.insertAdjacentHTML('beforeend', boxMarkup);
     const divEl = document.querySelector(`.box_${i + 1}`);
+    divEl.insertAdjacentHTML('beforeend', memberImgMarkup);
     divEl.insertAdjacentHTML('beforeend', memberNameMarkup);
     divEl.insertAdjacentHTML('beforeend', memberRoleMarkup);
-    console.log('DivEl: ', divEl);
 }
