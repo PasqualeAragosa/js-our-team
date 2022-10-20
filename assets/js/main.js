@@ -46,3 +46,18 @@ for (let i = 0; i < team.length; i++) {
     console.log(team[i].role);
     console.log(team[i].image);
 }
+
+const containerEl = document.querySelector('.my_container');
+
+for (let i = 0; i < team.length; i++) {
+
+    const boxMarkup =  `<div class="box box_${i + 1}"></div>`;
+    const memberNameMarkup = `<p>${team[i].name}</p>`;
+    const memberRoleMarkup = `<p>${team[i].role}</p>`;
+    
+    containerEl.insertAdjacentHTML('beforeend', boxMarkup);
+    const divEl = document.querySelector(`box_${i + 1}`);
+    //divEl.insertAdjacentHTML('beforeend', memberNameMarkup);
+    //divEl.insertAdjacentHTML('beforeend', memberRoleMarkup);
+    console.log('DivEl: ', divEl);
+}

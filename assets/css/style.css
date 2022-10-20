@@ -10,20 +10,21 @@ img {
 }
 /* #endregion Common */
 
-/* #region Debug */
-
-/* #endregion Debug */
-
-/* #region Utilities */
-
-/* #endregion Utilities */
-
 /* #region Header */
 
 /* #endregion Header */
 
 /* #region Main */
+.my_container {
+    width: 80%;
+    margin: auto;
+}
 
+.box {
+    width: calc(100% / 3);
+    padding: 2rem;
+    border: 1px solid black;
+}
 /* #endregion Main */
 
 /* #region Footer */
