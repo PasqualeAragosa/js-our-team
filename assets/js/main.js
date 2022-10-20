@@ -56,8 +56,8 @@ for (let i = 0; i < team.length; i++) {
     const memberRoleMarkup = `<p>${team[i].role}</p>`;
     
     containerEl.insertAdjacentHTML('beforeend', boxMarkup);
-    const divEl = document.querySelector(`box_${i + 1}`);
-    //divEl.insertAdjacentHTML('beforeend', memberNameMarkup);
-    //divEl.insertAdjacentHTML('beforeend', memberRoleMarkup);
+    const divEl = document.querySelector(`.box_${i + 1}`);
+    divEl.insertAdjacentHTML('beforeend', memberNameMarkup);
+    divEl.insertAdjacentHTML('beforeend', memberRoleMarkup);
     console.log('DivEl: ', divEl);
 }

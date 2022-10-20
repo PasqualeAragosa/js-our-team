@@ -22,8 +22,10 @@ img {
 
 .box {
     width: calc(100% / 3);
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
 }
 /* #endregion Main */
 
