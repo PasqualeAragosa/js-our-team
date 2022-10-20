@@ -1,0 +1,52 @@
+/* #region Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+/* #endregion Common */
+
+/* #region Header */
+.logo {
+    background-color: white;
+    box-shadow: 5px 5px 2px rgb(215, 212, 212);
+}
+
+.logo span {
+    font-size: 2rem;
+    margin: auto;
+}
+/* #endregion Header */
+
+/* #region Main */
+.my_container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    width: calc(100% / 3);
+    padding: 1rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(163, 158, 158);
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.role {
+    font-size: 1.25rem;
+}
+/* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
