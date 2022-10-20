@@ -11,13 +11,22 @@ img {
 /* #endregion Common */
 
 /* #region Header */
+.logo {
+    background-color: white;
+    box-shadow: 5px 5px 2px rgb(215, 212, 212);
+}
 
+.logo span {
+    font-size: 2rem;
+    margin: auto;
+}
 /* #endregion Header */
 
 /* #region Main */
 .my_container {
     width: 80%;
     margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .box {
@@ -25,6 +34,7 @@ img {
     padding: 1rem;
     /* border: 1px solid black; */
     text-align: center;
+    box-shadow: 10px 5px 5px rgb(163, 158, 158);
 }
 
 .name {
